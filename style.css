@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#fda4af
+}
+
 body{
     font-family: 'Lato', sans-serif;
 }
@@ -10,4 +15,21 @@ body{
 .container-center{
     max-width:600px;
     margin:auto;
+}
+.primary-link{
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    margin:1rem;
+    color:pink;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+.secondary-link{
+    color:var(--primary-color);
+    border-radius:0.5rem;
+    border:1px solid var(--primary-color);
+
 }
