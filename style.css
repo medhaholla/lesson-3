@@ -41,3 +41,28 @@ body{
     display:inline;
     padding:0rem 0.5rem;
 }
+.boxing{
+    background-color:var(--primary-color);
+    border: 0.5rem;
+    margin:1rem;
+    color:pink;
+    padding:2rem 2rem;
+    border-top-left-radius: 2rem;
+    
+
+}
+.link{
+    color:white;
+}
+.navigate{
+    text-align: center;
+    
+}
+.title{
+    text-align:left;
+    font-weight:bold;
+    
+}
+.link-active{
+    font-weight:bold;
+}
