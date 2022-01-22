@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 :root{
-    --primary-color:#fda4af
+    --primary-color:#fda4af;
+    --secondary-color:#f43f5e;
+    --off-white:#ffe4e6;
 }
 
 body{
@@ -9,7 +11,7 @@ body{
 }
 
 .container{
-    padding-left: 1rem ;
+    padding-left: 1rem;
     padding-right: 1rem;
 }
 .container-center{
@@ -39,7 +41,7 @@ body{
 }  
 .list-inline{
     display:inline;
-    padding:0rem 0.5rem;
+    padding:2rem 2rem;
 }
 .boxing{
     background-color:var(--primary-color);
@@ -47,9 +49,15 @@ body{
     margin:1rem;
     color:pink;
     padding:2rem 2rem;
-    border-top-left-radius: 2rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     
 
+}
+.title{
+    color:white
 }
 .link{
     color:white;
@@ -65,4 +73,55 @@ body{
 }
 .link-active{
     font-weight:bold;
+}
+/**header**/
+.hero{
+    padding:2rem;
+    
+}
+.hero-image{
+    max-width: 600px;
+    display:block;
+    margin:auto;
+}
+.hero .hero-heading{
+    color: var(--secondary-color);
+    padding:1rem;
+    text-align: center;
+}
+
+
+.color{
+    color:black;
+    font-weight:100;
+
+}
+/**section**/
+.sections{
+    padding:2rem;
+}
+.sections h1{
+    text-align: center;
+}
+.ow{
+    background-color:var(--off-white) ;
+}
+.new-link{
+    text-decoration: none;
+}
+.footer{
+    background-color: var(--primary-color);
+    text-align:center;
+    padding:2rem 1rem;
+    color:white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.footer .new-link{
+    color:white;
+}
+.footer .ul{
+    padding-inline-start: 0px;
 }
